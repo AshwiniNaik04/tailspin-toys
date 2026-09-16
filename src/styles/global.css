@@ -1,1 +1,109 @@
 @import "tailwindcss";
+
+html.light-mode {
+	color-scheme: light;
+}
+
+html.light-mode body {
+	background-color: #f8fafc !important;
+	color: #0f172a !important;
+}
+
+html.light-mode header {
+	background-color: #2563eb !important;
+}
+
+html.light-mode nav {
+	background-color: #fff !important;
+	color: #0f172a !important;
+}
+
+html.light-mode nav a:hover {
+	background-color: #e2e8f0 !important;
+}
+
+html.light-mode [class*="bg-slate-"],
+html.light-mode [class*="bg-gradient-"] {
+	background: #fff !important;
+}
+
+html.light-mode [class*="text-slate-"] {
+	color: #334155 !important;
+}
+
+html.light-mode [class*="text-slate-100"],
+html.light-mode [class*="text-slate-200"] {
+	color: #0f172a !important;
+}
+
+html.light-mode [class*="border-slate-"] {
+	border-color: #cbd5e1 !important;
+}
+
+html.light-mode select,
+html.light-mode input {
+	background-color: #fff !important;
+	color: #0f172a !important;
+}
+
+html.light-mode [class*="hover:bg-slate-"]:hover {
+	background-color: #e2e8f0 !important;
+}
+
+html.high-contrast {
+	color-scheme: dark;
+}
+
+html.high-contrast body {
+	background-color: #000 !important;
+	color: #fff !important;
+}
+
+html.high-contrast header {
+	background-color: #000 !important;
+	border-bottom: 2px solid #fff;
+}
+
+html.high-contrast a,
+html.high-contrast button,
+html.high-contrast select,
+html.high-contrast input {
+	border-color: #fff !important;
+}
+
+html.high-contrast a,
+html.high-contrast [class*="text-blue-"],
+html.high-contrast [class*="text-purple-"],
+html.high-contrast [class*="text-yellow-"] {
+	color: #ffff00 !important;
+}
+
+html.high-contrast [class*="text-slate-"],
+html.high-contrast label,
+html.high-contrast legend {
+	color: #fff !important;
+}
+
+html.high-contrast [class*="bg-slate-"],
+html.high-contrast [class*="bg-blue-"],
+html.high-contrast [class*="bg-purple-"],
+html.high-contrast [class*="bg-gradient-"] {
+	background: #000 !important;
+}
+
+html.high-contrast [class*="border-slate-"],
+html.high-contrast [class*="border-blue-"] {
+	border-color: #fff !important;
+}
+
+html.high-contrast a:hover,
+html.high-contrast button:hover {
+	background-color: #222 !important;
+	color: #fff !important;
+}
+
+html.high-contrast :focus-visible {
+	outline: 3px solid #00ffff !important;
+	outline-offset: 3px;
+	box-shadow: none !important;
+}
